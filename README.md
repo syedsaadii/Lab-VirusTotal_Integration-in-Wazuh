@@ -17,12 +17,12 @@
 `[Wazuh Agent] -> [Wazuh Manager] -> [VirusTotal API] -> [Custom Alert Rule] -> [Dashboard]`
 
 ### 🚀 Setup in 5 Minutes
-1. Install Wazuh Manager & Agent
-2. Get free VirusTotal API key
-3. Paste `configs/ossec.conf-snippet.xml` into `/var/ossec/etc/ossec.conf`
+1. You have to Install Wazuh Manager & Agent
+2. Get free VirusTotal API key from thier website
+3. Paste the snippet mentioned in my repo in config file `configs/ossec.conf-snippet.xml` into `/var/ossec/etc/ossec.conf`
 4. Paste `configs/local_rules.xml` into `/var/ossec/etc/rules/local_rules.xml`
 5. Restart Wazuh: `systemctl restart wazuh-manager`
-6. Test with EICAR file: `echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR...' > /tmp/test.txt`
+6. Test with the malware(not real just for testing) from eicar website : `echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR...' > /tmp/test.txt`
 
 ### Tools Used
 Wazuh SIEM | VirusTotal | Ubuntu | MITRE ATT&CK
