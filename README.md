@@ -5,7 +5,7 @@
 **Built by:** [Syed Saad](https://www.linkedin.com/in/syedsaadii)
 
 ### Live Demo
-![Wazuh Alert](screenshots/1-virustotal-alert-dashboard.png)
+<img width="399" height="81" alt="virus toatl" src="https://github.com/user-attachments/assets/4ad92ffa-3fe3-4a64-b7de-b51d412a32ca" />
 
 ### What It Does
 ✅ Real-time File Integrity Monitoring (FIM)
