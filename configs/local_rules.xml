@@ -1,0 +1,13 @@
+<!-- Add this to /var/ossec/etc/rules/local_rules.xml -->
+<group name="virustotal,">
+  <rule id="100100" level="12">
+    <if_sid>87105</if_sid>
+    <field name="integration">virustotal</field>
+    <match>Positive</match>
+    <description>VirusTotal: Malware detected - $(data.virustotal.description)</description>
+    <mitre>
+      <id>T1204.002</id>
+    </mitre>
+    <group>virustotal,malware,</group>
+  </rule>
+</group>
